@@ -1,9 +1,8 @@
 {
-  "name": "@anttiviljami/serverless-stack-output",
-  "version": "0.3.1",
+  "name": "@xvie/serverless-stack-output",
+  "version": "0.1.0",
   "description": "Serverless plugin to process AWS CloudFormation Stack Output",
   "license": "MIT",
-  "author": "Viljami Kuosmanen <viljami@avoinsorsa.fi>",
   "main": "dist",
   "scripts": {
     "clean": "rimraf dist",
@@ -16,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anttiviljami/serverless-stack-output.git"
+    "url": "git+https://github.com/xvie/serverless-stack-output.git"
   },
   "bugs": {
-    "url": "https://github.com/anttiviljami/serverless-stack-output/issues"
+    "url": "https://github.com/xvie/serverless-stack-output/issues"
   },
-  "homepage": "https://github.com/anttiviljami/serverless-stack-output#readme",
+  "homepage": "https://github.com/xvie/serverless-stack-output#readme",
   "keywords": [
     "serverless",
     "plugin",
@@ -36,7 +35,7 @@
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",
-    "@types/node": "^8.0.19",
+    "@types/node": "^12.0.2",
     "coveralls": "^2.13.1",
     "dot-json": "^1.0.3",
     "jasmine-data-provider": "^2.2.0",
